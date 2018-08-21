@@ -9,7 +9,7 @@ if [ $? -ne 0 ] ; then
     eval "$TERMINAL --title $TITLE"
     touch $FILE
 else
-    if [[ -f $file ]] ; then
+    if [[ -f $FILE ]] ; then
         eval "xdotool search --name $TITLE | xargs -n 1  xdotool windowminimize"
         rm $FILE
     else
