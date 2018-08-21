@@ -36,9 +36,10 @@ and add the keyboad shortcut as ctrl+alt+t
 
 now add another keybaord with keys ctrl + ~ (or anything you want) and add the command as 
 ```
-bash ~/toggle.sh
+bash /home/USER/toggle.sh
+(Replace USER with your user name in the above command)
 ```
-and you're done. You can use the keyboard shortcut you input to toggle the terminal on and off like iterm2 does. If there are multiple terminals open it'll toggle all of them on and off.
+and you're done. You can use the keyboard shortcut you input to toggle the terminal on and off like iterm2 does. If there are multiple terminals open it'll toggle all of them on and off. If no terminal with TITLE was open in the first place, a new terminal is opened.
 
 
 ## Authors
