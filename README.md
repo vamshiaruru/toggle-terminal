@@ -1,4 +1,4 @@
-# Project Title
+# Toggle Terminal
 
 This is a small bash practice project I made to toggle a terminal display on and off. This is supposed to emulate iterm2 behaviour. Very primitive at the moment, but hey, it works. Tested only on Ubuntu
 
